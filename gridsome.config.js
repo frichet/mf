@@ -2,11 +2,11 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "MF",
+  siteUrl: `https://frichet.github.io/mf`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  titleTemplate: "%s - MF",
+  siteDescription: "Creative artist",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
