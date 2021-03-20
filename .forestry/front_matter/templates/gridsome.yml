@@ -17,3 +17,5 @@ fields:
 - type: text
   name: siteDescription
   label: Site description
+pages:
+- data/gridsome.json
