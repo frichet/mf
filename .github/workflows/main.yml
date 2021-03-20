@@ -27,7 +27,7 @@ jobs:
 
       - name: Install packages and build Gridsome site
         run: |
-          npm run install
+          npm install
           npm run build
 
       - name: Deploy to GitHub Pages
