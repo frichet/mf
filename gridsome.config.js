@@ -2,13 +2,10 @@
 // Learn more: https://gridsome.org/docs/config
 // https://gridsome.org/docs/deploy-to-github/
 
-module.exports = {
-  siteName: "MF",
-  siteUrl: `https://frichet.github.io`,
-  pathPrefix: '/mf',
+const config = require('./data/gridsome.json');
+
+module.exports = Object.assign({
   host: "0.0.0.0",
-  titleTemplate: "%s - MF",
-  siteDescription: "Creative artist",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -40,4 +37,4 @@ module.exports = {
       plugins: ["@gridsome/remark-prismjs"]
     }
   }
-};
+}, config);
