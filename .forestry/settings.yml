@@ -19,6 +19,10 @@ sections:
   templates:
   - journal
 - type: document
+  path: data/gridsome.json
+  label: Gridsome config
+  match: "**/*"
+- type: document
   path: data/theme.json
   label: Theme config
 upload_dir: uploads
