@@ -1,7 +1,7 @@
 {
-  siteName: "MF",
-  siteUrl: "https://frichet.github.io",
-  pathPrefix: "/mf",
-  titleTemplate: "%s - MF",
-  siteDescription: "Creative artist"
+  "siteName": "MF",
+  "siteUrl": "https://frichet.github.io",
+  "pathPrefix": "/mf",
+  "titleTemplate": "%s - MF",
+  "siteDescription": "Creative artist"
 }
