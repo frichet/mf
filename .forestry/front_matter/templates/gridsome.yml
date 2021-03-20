@@ -4,16 +4,16 @@ hide_body: true
 fields:
 - type: text
   name: siteName
-  label: siteName
+  label: Site name
 - type: text
   name: siteUrl
-  label: siteUrl
+  label: Site URL
 - type: text
   name: pathPrefix
-  label: pathPrefix
+  label: Path prefix
 - type: text
   name: titleTemplate
-  label: titleTemplate
+  label: Title template
 - type: text
   name: siteDescription
-  label: siteDescription
+  label: Site description
