@@ -2,7 +2,7 @@
 // Learn more: https://gridsome.org/docs/config
 // https://gridsome.org/docs/deploy-to-github/
 
-const config = require('./data/gridsome.json');
+var config = require('./data/gridsome.json');
 
 module.exports = Object.assign({
   host: "0.0.0.0",
