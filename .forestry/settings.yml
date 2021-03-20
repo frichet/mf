@@ -21,6 +21,10 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
+- type: document
+  path: gridsome.config.json
+  label: Gridsome
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
