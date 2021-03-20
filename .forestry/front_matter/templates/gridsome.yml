@@ -1,0 +1,19 @@
+---
+label: Gridsome
+hide_body: true
+fields:
+- type: text
+  name: siteName
+  label: siteName
+- type: text
+  name: siteUrl
+  label: siteUrl
+- type: text
+  name: pathPrefix
+  label: pathPrefix
+- type: text
+  name: titleTemplate
+  label: titleTemplate
+- type: text
+  name: siteDescription
+  label: siteDescription
